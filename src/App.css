@@ -1,0 +1,384 @@
+.font-family {
+  font-family: 'Poppins', sans-serif;
+}
+.chat-box{
+  background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+}
+.font-size {
+  font-size: 15px;
+}
+
+.head{
+  background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+
+}
+.chat-list{
+  text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  font-size: 2vw;
+
+}
+.mic{
+  position: absolute;
+  right: 7%;
+}
+.round-img {
+  clip-path: circle();
+}
+.empty-conversation{
+  position: absolute;
+  top:30%;
+  left: 30%;
+}
+.icon-bg {
+  background-color: #e4e5eb;
+}
+.incoming {
+  font-size: 12px;
+}
+.profile-pic {
+  height: 100px;
+  width: 100px;
+}
+.small-round-pic {
+  height: 38px;
+  width: 38px;
+}
+.medium-round-pic {
+  height: 55px;
+  width: 55px;
+}
+.typing {
+  height: 50px;
+  width: 50px;
+}
+.big-round-pic {
+  height: 90px;
+  width: 90px;
+}
+.color-overlay{
+  height: 55vh;
+  width: 85vh;
+  /* background-color: white; */
+  background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
+  opacity: 0.5;
+  position: absolute;
+}
+.voice-assistant{
+  height: 55vh;
+  width: 85vh;
+  
+}
+div::-webkit-scrollbar {
+  width: 7px;
+}
+div::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(to top, #00b09b, #96c93d);
+  border-radius: 25px;
+}
+.scroll {
+  height: 50%;
+  overflow-y: auto;
+}
+.scroll-bottom{
+  height: 70vh;
+  width: 100%;
+}
+.scroll-mid {
+  height: 885px;
+  overflow-y: auto;
+}
+.side-height {
+  height: 850px;
+}
+.coverpic {
+  height: 200px;
+  width: 100%;
+}
+.profilepic {
+  width: 150px;
+  height: 150px;
+}
+.size {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+.profile-sidebar {
+  height: 800px;
+}
+.mid {
+  margin-top: -80px;
+  margin-left: 50px;
+}
+.videoPanel{
+  width: 100%; 
+
+}
+.myVideo{
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.friend-req {
+  border: 2px solid #f1f1f1;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #f0f0f0;
+}
+.post {
+  display: none;
+  visibility: none;
+}
+.circle {
+  clip-path: circle(50% at 50% 50%);
+}
+
+.pointer {
+  cursor: pointer;
+}
+.position-abs {
+  position: absolute;
+  top: 20%;
+}
+.myFile {
+  outline: none;
+  color: transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 50px;
+  transition: 0.5s;
+}
+.myFile::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.myFile::before {
+  content: '\f1c5';
+  font-family: fontAwesome;
+  font-size: 30px;
+  color: green;
+  display: inline-block;
+  user-select: none;
+}
+
+.friend-req {
+  border: 2px solid #f1f1f1;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #f0f0f0;
+}
+
+.camera {
+  outline: none;
+  color: transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 50px;
+  transition: 0.5s;
+}
+.camera::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.camera::before {
+  content: '\f030';
+  font-family: fontAwesome;
+  font-size: 30px;
+  color: black;
+  display: inline-block;
+  user-select: none;
+  margin-left: 15px;
+}
+.gallery {
+  outline: none;
+  color: transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 50px;
+  transition: 0.5s;
+}
+.gallery::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.gallery::before {
+  content: '\f03e';
+  font-family: fontAwesome;
+  font-size: 30px;
+  color: green;
+  display: inline-block;
+  user-select: none;
+  margin-left: 15px;
+  
+}
+.camera:hover {
+  background-color: #f0f2f5;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+}
+.reportedPic {
+  height: 300px;
+  width: 100%;
+}
+.text-comment {
+  max-height: 70px;
+  overflow: hidden;
+}
+
+.seemore {
+  cursor: pointer;
+  color: #69696d;
+  text-align: end;
+  margin: 5px 10px;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.login-panel {
+  min-height: 75%;
+}
+.viewport-height {
+  height: 100vh;
+}
+#logo-img {
+  background-image: url('https://mma.prnewswire.com/media/728150/TO_THE_NEW_Logo.jpg?p=facebook');
+  height: 70px;
+  width: 110px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.resp-hide {
+  display: flex;
+}
+
+.row-span {
+  grid-row: 1 / span 2;
+}
+@media screen and (max-width: 700px) {
+  .sticky {
+    display: none;
+    position: static;
+    top: 0;
+  }
+  .viewport-height {
+    height: 100%;
+  }
+  #logo-img {
+    background-image: url('../public/TO_THE_NEW_Logo.jpg');
+    height: 50px;
+    width: 50px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+  }
+  .resp-hide {
+    display: none;
+  }
+}
+
+.pickFile {
+  font-weight: 500;
+  color: #69696d;
+  /* border: 2px solid #198754; */
+  border-radius: 10px;
+}
+.pickFile:hover {
+  background-color: #f3f3f3;
+}
+.pickFile i {
+  font-size: 1.5rem;
+  color: #198754;
+  margin-right: 5px;
+}
+
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #fff;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%,
+  100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+
+/* messenger css */
+
+.chatbubble {
+  max-width: 70%;
+}
+
+.time {
+  font-size: 0.8rem;
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  font-weight: 500;
+
+}
+
+.chatbubble .bubbletext {
+  background-color: #ededed;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  text-align: left;
+  max-width: max-content;
+}
+
+.chatbubble .bubbletext p {
+  font-size: 1.2rem;
+}
+
+.myMessage {
+  justify-content: flex-end;
+  margin-left: auto;
+}
+.myMessage .bubbletext {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0px;
+}
+
+.myMessage .rowalign {
+  justify-content: flex-end;
+}
+.myMessage .bubbletext {
+  background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+  color: black;
+  margin-left: auto;
+}
+.preview{
+  position: absolute;
+  bottom :100%;
+ 
+}

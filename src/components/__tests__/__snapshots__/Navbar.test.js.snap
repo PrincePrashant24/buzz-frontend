@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Navbar Panel 1`] = `
+<nav
+  className="navbar  navbar-light bg-light p-0"
+>
+  <div
+    className="container-fluid"
+  >
+    <div
+      className="col-4 d-flex"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="logo"
+          className="logo"
+          src="https://mma.prnewswire.com/media/728150/TO_THE_NEW_Logo.jpg?p=facebook"
+        />
+      </a>
+      <div
+        className="mx-3 w-100 align-self-center position-relative"
+      >
+        <input
+          autocomplete="off"
+          className="caption px-4 py-2 bg-transparent w-100 border-0 border-bottom form-control"
+          onChange={[Function]}
+          placeholder="Search by Name or Email"
+          type="search"
+        />
+        <div
+          className="dropdown-search w-100 position-absolute left-0"
+          style={
+            Object {
+              "zIndex": 1,
+            }
+          }
+        >
+          <ul
+            className="list-group overflow-auto"
+            style={
+              Object {
+                "maxHeight": "300px",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="d-flex position-relative"
+    >
+      <a
+        className="nav-link text-dark"
+        href="/profile"
+        onClick={[Function]}
+      >
+        <div
+          className="d-flex"
+        >
+          <div
+            className=""
+          >
+            <i
+              className="fa-solid fa-user fa-2x card-img-top small-round-pic  round-img bg-warning d-flex justify-content-center align-items-center"
+            />
+          </div>
+          <div
+            className=" align-items-center ms-2 resp-hide"
+            data-testid="userInfo"
+          >
+            John Doe
+          </div>
+        </div>
+      </a>
+      <div
+        className="d-flex align-items-center ms-2 round-img border rounded-circle icon-bg text-dark p-2"
+      >
+        <a
+          className="text-dark"
+          href="/"
+          onClick={[Function]}
+        >
+          <i
+            className="fa-solid fa-house"
+          />
+        </a>
+      </div>
+      <div
+        className="position-relative d-flex "
+      >
+        <a
+          className="d-flex align-items-center  ms-2 round-img border rounded-circle icon-bg text-dark p-2 "
+          href="/friends"
+          onClick={[Function]}
+        >
+          <i
+            className="fa-solid fa-user"
+          />
+        </a>
+        <div
+          className="round-img bg-danger p-1 text-white incoming position-absolute bottom-50 end-0"
+          title="friend_req_count"
+        >
+          1
+        </div>
+      </div>
+      <div
+        className="d-flex align-items-center ms-2 me-3 round-img border rounded-circle icon-bg text-dark p-2 pointer"
+        onClick={[Function]}
+        title="logout-btn"
+      >
+        <i
+          className="fa fa-sign-out "
+        />
+      </div>
+    </div>
+  </div>
+</nav>
+`;

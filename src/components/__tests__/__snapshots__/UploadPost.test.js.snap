@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render UploadPost Panel 1`] = `
+<div
+  className="shadow p-3 mb-4 bg-body rounded"
+>
+  <div
+    className="d-sm-flex align-items-center"
+  >
+    <div
+      className=""
+    >
+      <img
+        alt="..."
+        className="d-none d-sm-block card-img-top small-round-pic  round-img"
+        src="http://picurl.com"
+      />
+    </div>
+    <div
+      className="w-100 ms-2 me-2"
+    >
+      <input
+        className="caption p-2 rounded-pill form-control"
+        disabled={false}
+        id="comment-box"
+        onChange={[Function]}
+        placeholder="What's on your mind Name ?"
+        title="comment-box"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="text-center d-flex align-items-center"
+    >
+      <div
+        className="btn d-flex pickFile"
+        onClick={[Function]}
+      >
+        <i
+          className="fa-solid fa-photo-film"
+        />
+         Photo/Video
+      </div>
+      <input
+        accept=".jpg, .png, .mp4"
+        className="d-none"
+        id="file"
+        onChange={[Function]}
+        type="file"
+      />
+    </div>
+  </div>
+  <div
+    className="text-center d-grid gap-2 w-100 mt-2 text-center mt-2"
+  >
+    <button
+      className="btn btn-success rounded-pill"
+      disabled={false}
+      onClick={[Function]}
+      title="publish"
+    >
+      Upload
+    </button>
+  </div>
+</div>
+`;

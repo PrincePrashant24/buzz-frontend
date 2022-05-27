@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Comment Panel 1`] = `
+Array [
+  <div
+    className="d-flex w-100 bg-light mt-1 align-items-center"
+  >
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <img
+          alt="..."
+          className=" mt-2 small-round-pic me-2  round-img "
+          data-testid="userCommentPic"
+          src="no pic"
+        />
+      </div>
+    </div>
+    <div
+      className="text-comment && border && form-control rounded-pill"
+      data-testid="cmnt"
+    >
+      no msg
+    </div>
+  </div>,
+  <div
+    className="d-flex justify-content-between"
+  >
+    <div
+      className="d-flex"
+    >
+      <div
+        className="seemore"
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+            "marginLeft": "65px",
+          }
+        }
+      >
+        <div
+          data-testid="cmntlike"
+        >
+          <i
+            className="fa-solid fa-heart me-2"
+          />
+          Like
+        </div>
+      </div>
+      <div
+        className="seemore"
+        onClick={[Function]}
+      >
+        Reply
+      </div>
+    </div>
+    <div
+      className="seemore"
+      onClick={[Function]}
+    >
+       
+      See More
+    </div>
+  </div>,
+]
+`;
+
+exports[`should render Comment replies part 1`] = `
+Array [
+  <div
+    className="d-flex w-100 bg-light mt-1 align-items-center"
+  >
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <img
+          alt="..."
+          className=" mt-2 small-round-pic me-2  round-img "
+          data-testid="userCommentPic"
+          src="no pic"
+        />
+      </div>
+    </div>
+    <div
+      className="text-comment && border && form-control rounded-pill"
+      data-testid="cmnt"
+    >
+      no msg
+    </div>
+  </div>,
+  <div
+    className="d-flex justify-content-between"
+  >
+    <div
+      className="d-flex"
+    >
+      <div
+        className="seemore"
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+            "marginLeft": "65px",
+          }
+        }
+      >
+        <div
+          data-testid="cmntlike"
+        >
+          <i
+            className="fa-solid fa-heart text-danger me-2"
+          />
+          Unlike
+        </div>
+      </div>
+      <div
+        className="seemore"
+        onClick={[Function]}
+      >
+        Reply
+      </div>
+    </div>
+    <div
+      className="seemore"
+      onClick={[Function]}
+    >
+       
+      See More
+    </div>
+  </div>,
+]
+`;
